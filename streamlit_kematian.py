@@ -11,7 +11,7 @@ sc=pickle.load(open('Scaler_model.pkl','rb'))
 st.title("Prediksi Kematian Pasien covid dengan Decision Tree")
 image = Image.open('mask.jpg')
 
-st.image(image, caption = 'selalu berjaga jaga gunakan masker')
+st.image(image, caption = 'Covid-19 Gunakan Masker')
 
 NAME = st.text_input("NAME")
 
