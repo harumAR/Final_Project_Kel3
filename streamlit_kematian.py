@@ -13,23 +13,23 @@ image = Image.open('mask.jpg')
 
 st.image(image, caption = 'Covid-19 Gunakan Masker')
 
-NAME = st.text_input("NAME")
+NAME = st.text_input("NAMA LENGKAP")
 
 # Input data
-SEX = st.radio("SEX", [ 'Female','Male'])
-if SEX == 'Female':
+SEX = st.radio("Gender", [ 'Perempuan','Laki-Laki'])
+if SEX == 'Perempuan':
     SEX = 1.0
 else:
     SEX = 2.0
 
-AGE = st.text_input("AGE")
+AGE = st.text_input("Umur")
 if AGE != '':
     AGE = float(AGE)  # Convert to float
 
 USMER = st.radio("Tingkat Unit Medis", ['Pertama', 'Kedua', 'Ketiga'])
 if USMER == 'Pertama':
     USMER = 1
-elif USMER == 'Kedua:
+elif USMER == 'Kedua':
     USMER = 2
 elif USMER == 'Ketiga':
     USMER = 3
