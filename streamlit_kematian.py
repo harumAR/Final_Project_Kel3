@@ -13,7 +13,7 @@ st.title("Prediksi Kematian Pasien covid dengan Decision Tree")
 st.text_input("NAME")
 
 # Input data
-SEX = st.radio("SEX", ['Male', 'Female'])
+SEX = st.radio("SEX", [ 'Female','Male'])
 if SEX == 'Female':
     SEX = 1.0
 else:
