@@ -132,7 +132,7 @@ if st.button("Prediksi SEKARANG"):
         Prediksi_Kematian = "UNKNOWN"
 
 st.success(Prediksi_Kematian)
-st.write("Prediksi Pasien bernama",NAME, "diprediksi menggunakan Decision Tree akan" Prediksi_Kematian)
+st.write("Prediksi Pasien :",Prediksi_Kematian)
 
 st.write("Hasil Pembelajaran Mata Kuliah Statistika dan Sains Data Kelompok 3")
 st.write("Harum Aprelina R (2017031092)")
