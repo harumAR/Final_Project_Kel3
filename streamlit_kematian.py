@@ -8,7 +8,7 @@ DTR=pickle.load(open('DTR_modelkematian.pkl','rb'))
 sc=pickle.load(open('Scaler_model.pkl','rb'))
 
 #judul web
-st.title("Prediksi Kematian Pasien covid dengan Decision Tree")
+st.title("Prediksi Kematian Pasien Covid-19 dengan Decision Tree")
 image = Image.open('mask.jpg')
 
 st.image(image, caption = 'Covid-19 Gunakan Masker')
