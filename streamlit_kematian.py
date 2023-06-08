@@ -34,7 +34,7 @@ elif USMER == 'Kedua':
 elif USMER == 'Ketiga':
     USMER = 3
 
-MEDICAL_UNIT = MEDICAL_UNIT = st.slider("Medical Unit", 0, 13, step=1)
+MEDICAL_UNIT = MEDICAL_UNIT = st.slider("Medical Unit", 1, 13, step=1)
 
 PATIENT_TYPE = st.radio("Tipe Pasien", ['Pulang ke rumah', 'Rawat Inap'])
 if PATIENT_TYPE == 'Pulang ke rumah':
